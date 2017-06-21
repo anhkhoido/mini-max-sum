@@ -27,9 +27,8 @@ int main() {
         // a combination of four integers of his/her choice in the array.
         std::cout   << (std::valarray<long long>(arr, SIZE).sum() - arr[4]) << " " 
                     << (std::valarray<long long>(arr, SIZE).sum() - arr[0]) << std::endl;
-    }
-    
-    
+    } // End of the if statement.
+      
     delete [] arr;
     arr = nullptr;
     
