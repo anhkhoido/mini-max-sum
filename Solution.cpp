@@ -23,9 +23,6 @@ int main() {
         
         input(arr);
         
-        // Sort the array of positive integers.
-        std::sort(arr, arr + SIZE);
-        
         // Display the smallest and biggest sums one can obtain by adding
         // a combination of four integers of his/her choice in the array.
         std::cout   << (std::valarray<long long>(arr, SIZE).sum() - arr[4]) << " " 
@@ -51,4 +48,7 @@ void input(long long arr[]) {
         if (temp >= 1 && temp <= pow(10.0, 9.0)) arr[i] = temp;
         temp = 0;
     }
+    
+    // Sort the array of positive integers.
+    std::sort(arr, arr + SIZE);
 }
