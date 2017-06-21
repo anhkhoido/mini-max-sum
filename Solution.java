@@ -41,7 +41,7 @@ public class Solution {
 
         for (int i = 0; i < SIZE; i++) {
 
-            temp = writeIntegers.nextLongLong();
+            temp = writeIntegers.nextLong();
             if (temp >= 1 && temp <= Math.pow(10.0, 9.0)) arr[i] = temp;
             temp = 0;
         }
