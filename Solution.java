@@ -4,8 +4,9 @@ import java.util.stream.LongStream;
 
 /**
  * The main class of the program I use to solve the coding
- * challenge titled Mini-Max Sum by bishop15.
- * 
+ * challenge titled Mini-Max Sum by bishop15. The following
+ * is the solution in Java 8. 
+ *
  * @author Anh Khoi Do
  * @version 1.0 2017-06-20
  */
