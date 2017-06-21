@@ -20,7 +20,7 @@ public class Solution {
         
         input(arr);
 
-        // Display the lowest and highest value one can obtain by adding
+        // Display the lowest and highest values one can obtain by adding
         // any combination of four elements in the array named arr.
         System.out.println((LongStream.of(arr).sum() - arr[4]) + " " +
                            (LongStream.of(arr).sum() - arr[0]));
